@@ -3,7 +3,7 @@ module.exports = [{
     type: "loop",
     channel: "$getVar[logs_channel;automations]",
     executeOnStartup: true,
-    every: 78000,
+    every: 60000,
     code: `
 	$ifAwaited[1==1;{execute:iss-automationcheck}]
 	$title[✅ New Data Found]
