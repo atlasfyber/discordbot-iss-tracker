@@ -48,5 +48,7 @@ Expect me that I created the code, it couldn't be possible without our API provi
 - ISS Tracking Information: https://wheretheiss.at
 - Countries Information: https://restcountries.com/v3.1/all
 
-# 🤝 Support Me
+# 🙌 Support Me
 Do you want to support me? I'm not asking for donations, but feel free to invite one of my bots (Horizon), which can be found on my profile.
+
+© Atlas Development | Made with ❤️ by Atlas Dev Team.
