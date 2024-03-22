@@ -1,4 +1,4 @@
-![Image](https://cdn.discordapp.com/attachments/1154857744143224922/1220643830714597436/example.png?ex=660fb027&is=65fd3b27&hm=f217d59c7c967ed0c48aff94cfa65aa372ddc6eeaf9743e24a8ba8ec947d54e6&)
+![Image Preview](https://cdn.discordapp.com/attachments/1154857744143224922/1220643830714597436/example.png?ex=660fb027&is=65fd3b27&hm=f217d59c7c967ed0c48aff94cfa65aa372ddc6eeaf9743e24a8ba8ec947d54e6&)
 # 🛰️ Discord Bot ISS Tracker 
 
 Developed for astronomy enthusiasts by a astronomy enthusiast, this code uses the reliable and understandable coding language, aoi.js, tailored for the simple user. With the power of javascript and discord.js, along with our remarkable APIs. 
