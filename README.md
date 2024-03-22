@@ -1,7 +1,7 @@
 ![Image](https://cdn.discordapp.com/attachments/1154857744143224922/1220643830714597436/example.png?ex=660fb027&is=65fd3b27&hm=f217d59c7c967ed0c48aff94cfa65aa372ddc6eeaf9743e24a8ba8ec947d54e6&)
 # 🛰️ Discord Bot ISS Tracker 
 
-Drafted for astronomy enthusiasts by a astronomy enthusiast, this code uses the reliable and understandable coding language, aoi.js, tailored for the simple user. With the power of javaScript and discord.js, along with our remarkable APIs. 
+Developed for astronomy enthusiasts by a astronomy enthusiast, this code uses the reliable and understandable coding language, aoi.js, tailored for the simple user. With the power of javascript and discord.js, along with our remarkable APIs. 
 
 This code is designed for a Discord bot to track the current position of the International Space Station (ISS) within a Discord channel. The bot checks the APIs for updated data every minute. If any updates are found, it promptly posts them to the channel configured by the user in the index.js file.
 
