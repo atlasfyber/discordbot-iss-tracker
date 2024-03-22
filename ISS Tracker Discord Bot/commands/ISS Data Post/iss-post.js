@@ -61,7 +61,7 @@ $elseif[$getVar[iss_country;automations]!=??&&$getVar[iss_country;automations]!=
 {button:Map URL:link:https#COLON#//$getVar[iss_url;automations]:false}
 }]
 
-$onlyIf[$getGuildVar[iss_filter;$guildID;guilds_automations]==$getVar[iss_country;automations];] 
+$onlyIf[$geVar[iss_filter;automations]==$getVar[iss_country;automations];] 
 
 $suppressErrors[]
 
