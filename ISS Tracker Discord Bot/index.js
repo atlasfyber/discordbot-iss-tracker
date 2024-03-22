@@ -64,7 +64,7 @@ iss_flag: "0"}, "automations")
 astrofyber.variables({
 iss_longitude: "0"}, "automations")
 astrofyber.variables({
-iss_img: "https://cdn.discordapp.com/attachments/827259863074996284/1220445297566814258/image.png?ex=660ef741&is=65fc8241&hm=7d14d475c92e66ff5ccb12f610e7ebc7119168ded4668365363220cfadf207dd&"}, "automations")
+iss_img: "https://cdn.discordapp.com/attachments/1154857744143224922/1220638298746392576/image.png?ex=660fab00&is=65fd3600&hm=598d0e3d9cae21971cd6aad587df87a054117ce6febc25d2d0d3c28fee78511a&"}, "automations")
 astrofyber.variables({
 iss_latitude: "0"}, "automations")
 astrofyber.variables({
