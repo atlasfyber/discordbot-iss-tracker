@@ -51,4 +51,8 @@ Expect me that I created the code, it couldn't be possible without our API provi
 # 🙌 Support Me
 Do you want to support me? I'm not asking for donations, but feel free to invite one of my bots (Horizon), which can be found on my profile.
 
+<a href="https://top.gg/bot/1183177251316047983">
+  <img src="https://top.gg/api/widget/1183177251316047983.svg">
+</a>
+
 © Atlas Development | Made with ❤️ by Atlas Dev Team.
