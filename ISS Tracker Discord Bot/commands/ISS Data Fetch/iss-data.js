@@ -5,7 +5,7 @@ module.exports = [{
     executeOnStartup: true,
     every: 60000,
     code: `
-	$ifAwaited[1==1;{execute:iss-automationcheck}]
+	$awaitExecute[iss-automationcheck]
 	$title[✅ New Data Found]
 	$description[Attempting to save them now.]
 	$footer[ISS Tracker Automations | github/astrofyber]
