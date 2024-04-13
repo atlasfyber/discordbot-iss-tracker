@@ -4,7 +4,7 @@ module.exports = [{
  	$if: "old",
     code: `
 	$if[$getVar[iss_same;guilds_same]!=$getVar[iss_country;automations]]
-	$ifAwaited[1==1;{execute:iss-post}]
+	$awaitExecute[execute:iss-post]
 	$setVar[iss_same;$getVar[iss_country;automations];guilds_same]
 	$suppressErrors[]
 	$endif
