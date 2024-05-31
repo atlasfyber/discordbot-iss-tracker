@@ -8,7 +8,7 @@ module.exports = [{
 	$awaitExecute[iss-automationcheck]
 	$title[✅ New Data Found]
 	$description[Attempting to save them now.]
-	$footer[ISS Tracker Automations | github/astrofyber]
+	$footer[ISS Tracker Automations | github/atlasfyber]
 	$color[1ee91e]
 
 	$setVar[iss_country;$getObjectProperty[tracker;country_code];automations]
@@ -19,7 +19,7 @@ module.exports = [{
 	$setVar[iss_visibility;$getObjectProperty[api;visibility];automations]
 	$setVar[iss_longitude;$getObjectProperty[api;longitude];automations]
 	$setVar[iss_latitude;$getObjectProperty[api;latitude];automations]
-$log[github/astrofyber | We found new data, saving them..]
+$log[github/atlasfyber | We found new data, saving them..]
 $createObject[country;$httpRequest[https://restcountries.com/v3.1/alpha?codes=$getObjectProperty[tracker;country_code];GET;;;Error]]
 	$onlyIf[$getObjectProperty[tracker;country_code]!=$getVar[iss_country;automations];]
 	$onlyIf[$getObjectProperty[tracker;country_code]!=??;]
@@ -28,7 +28,7 @@ $createObject[country;$httpRequest[https://restcountries.com/v3.1/alpha?codes=$g
 
 $createObject[tracker;$httpRequest[https://api.wheretheiss.at/v1/coordinates/$getObjectProperty[api;latitude],$getObjectProperty[api;longitude];GET;;;Error]]
 $createObject[api;$httpRequest[https://api.wheretheiss.at/v1/satellites/25544;GET;;;Error]]
-$log[github/astrofyber | We checked for new data.]
+$log[github/atlasfyber | We checked for new data.]
 
 `}]
 
