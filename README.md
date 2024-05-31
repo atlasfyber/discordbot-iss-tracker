@@ -44,7 +44,7 @@ The bot checks for new data every 1 minute. If the International Space Station (
 # ❤️ Credits
 Expect me that I created the code, it couldn't be possible without our API providers. Even if one API provider stops working, this system is rendered useless.
 
-- Source Code: github/astrofyber
+- Source Code: github/atlasfyber
 - ISS Tracking Information: https://wheretheiss.at
 - Countries Information: https://restcountries.com/v3.1/all
 
