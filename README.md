@@ -19,11 +19,11 @@ In order to run the code, you need to fill in some [variables](https://github.co
 ```js
 // The channel that you want to receive notifications
 // Make sure bot has perms to send messages to this channel
-astrofyber.variables({
+application.variables({
 channel: "CHANNEL ID HERE"}, "main")
 
 // It will send a message when the bot  finds and deliver new data
-astrofyber.variables({
+application.variables({
 logs_channel: "CHANNEL ID HERE"}, "main")
 
 
@@ -31,7 +31,7 @@ logs_channel: "CHANNEL ID HERE"}, "main")
 // It supports ONLY ISO 3166-1 alpha-2 codes
 // https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 // Example: "US"
-astrofyber.variables({
+application.variables({
 iss_filter: "All Locations"}, "main")
 ```
 ✔️ After adding the variable values in the fields above and your bot token, you can run the code by executing the **index.js** file as the main file.
