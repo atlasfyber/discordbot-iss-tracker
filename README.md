@@ -12,9 +12,9 @@ This code is designed for a Discord bot to track the current position of the Int
 - Allows users to specify notifications for a specific country, triggering a notification only when the ISS passes over that country.
 
 # ⚙️ Configuration
-In order to run the code, you need to fill in some [variables](https://github.com/astrofyber/discordbot-iss-tracker/blob/7fd71a717e0bb9ed72ad9298c414cbf5189907ff/ISS%20Tracker%20Discord%20Bot/index.js#L29C1-L44C38). First and foremost, you'll need to add your [Discord bot token](https://github.com/astrofyber/discordbot-iss-tracker/blob/7fd71a717e0bb9ed72ad9298c414cbf5189907ff/ISS%20Tracker%20Discord%20Bot/index.js#L8C1-L8C37), which can be found in the [Discord Developer Portal](https://discord.com/developers/applications). 
+In order to run the code, you need to fill in some [variables](https://github.com/atlasfyber/discordbot-iss-tracker/blob/10df92b1b4b7a4d781a15404234a3f1bb3042634/ISS%20Tracker%20Discord%20Bot/index.js#L26C1-L47C65). But, first and foremost, you'll need to add your [Discord bot token](https://github.com/atlasfyber/discordbot-iss-tracker/blob/7fd71a717e0bb9ed72ad9298c414cbf5189907ff/ISS%20Tracker%20Discord%20Bot/index.js#L8C1-L8C37), which can be found in the [Discord Developer Portal](https://discord.com/developers/applications). 
 
-**Ensure that you also enable all the intents. If you prefer not to enable the intents, you can edit the [index.js](https://github.com/astrofyber/discordbot-iss-tracker/blob/7fd71a717e0bb9ed72ad9298c414cbf5189907ff/ISS%20Tracker%20Discord%20Bot/index.js#L10C1-L10C2) file to make the necessary changes. Once these variables are configured, the code will automatically utilize them as needed.**
+**Ensure that you also enable all the intents. If you prefer not to enable the intents, you can edit the [index.js](https://github.com/atlasfyber/discordbot-iss-tracker/blob/7fd71a717e0bb9ed72ad9298c414cbf5189907ff/ISS%20Tracker%20Discord%20Bot/index.js#L10C1-L11C74) file to make the necessary changes. Once these variables are configured, the code will automatically utilize them as needed.**
 
 ```js
 // The channel that you want to receive notifications
